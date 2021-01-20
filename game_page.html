@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
-  <body>
+  <body onload="onLoad()">
     <h4 id="player1Name" style="display: inline-block"></h4>
     <span id="player1score"></span>
     <br />
@@ -32,7 +32,7 @@
     <div class="container">
       <center>
         <h1>The Math Quiz Game!</h1>
-        <h3 id="whoIsAsking"></h3>
+        <h3 id="player_question"></h3>
         <h3 id="whoIsGuessing"></h3>
         <div id="questionOutput" class="col-lg-6"></div>
         <br />
